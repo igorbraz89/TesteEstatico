@@ -1,0 +1,18 @@
+{
+    "camelcase": true,
+    "freeze": true,
+    "indent": 4,
+    "curly": true,
+    "latedef": false,
+    "plusplus": true,
+    "undef": true,
+    "unused": true,
+    "predef": ["console", "require", "requirejs", "define", "window", "document"],
+    "strict": true,
+    "trailing": true,
+    "quotmark": "double",
+    "eqeqeq": true,
+    "maxlen": 0,
+    "maxcomplexity": 10,
+    "noarg": true
+}
