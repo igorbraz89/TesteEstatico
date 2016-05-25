@@ -3,7 +3,7 @@ module.exports = function (grunt) {
     "use strict";
 
     var pathFaesaDev = "dev";
-    var wineJsFiles = pathFaesaDev + "/dev-resources/js/**/*.js";
+    var faesaJsFiles = pathFaesaDev + "/dev-resources/js/**/*.js";
 
     var createConfig = {
         requirejs: function (basePath) {
@@ -46,7 +46,7 @@ module.exports = function (grunt) {
 
     var configBuilder = function (configName) {
         return {
-            "wine-dev": createConfig[configName](pathFaesaDev)
+            "faesa-dev": createConfig[configName](pathFaesaDev)
         };
     };
 
@@ -61,9 +61,9 @@ module.exports = function (grunt) {
             options: {
                 atBegin: true
             },
-            "js-wine": {
-                files: [wineJsFiles],
-                tasks: ["jscs:wine-dev", "jshint:wine-dev", "requirejs:wine-dev"]
+            "js-faesa": {
+                files: [faesaJsFiles],
+                tasks: ["jscs:faesa-dev", "jshint:faesa-dev", "requirejs:faesa-dev"]
             }
         }
     });
@@ -75,9 +75,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-jscs");
 
     grunt.registerTask("default", [
-        "jscs:wine-dev",
-        "jshint:wine-dev",
-        "requirejs:wine-dev",
+        "jscs:faesa-dev",
+        "jshint:faesa-dev",
+        "requirejs:faesa-dev",
     ]);
     grunt.registerTask("dev", "default");
 };
