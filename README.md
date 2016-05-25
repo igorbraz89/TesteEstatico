@@ -20,12 +20,11 @@ O Grunt é o Task Runner que orquestrará todo o projeto. Para instalá-lo digit
 ## Install
 Clone o projeto em sua máquina, na pasta que desejar. Na raiz do clone digite
 os seguintes comandos:
-
-- Você pode usar o GitHub desktop para clonar o projeto.
+ `Você pode usar o GitHub desktop para clonar o projeto.`
 - `npm install`; (Isso instalará os pacotes necessários do Grunt)
 
 Pronto, com isso todas as dependências serão instaladas e tudo estará
 configurado para o desenvolvimento.
 
 ## Run
-Para rodar o projeto basta digitar `grunt watch`. Dessa forma o processo de compilação das alterações é feito automáticamente.
+Para rodar o projeto basta digitar `grunt watch`. Dessa forma o processo de compilação das alterações é feita automáticamente.
