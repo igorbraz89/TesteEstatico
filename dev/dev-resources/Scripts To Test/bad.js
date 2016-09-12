@@ -30,7 +30,7 @@ function displayError(error, loc, offset) {
     closeButton.onclick = function() {
         content.parentElement.removeChild(content);
     };
-    content.textContent = error;
+    content.textContent = error
     content.appendChild(closeButton);
     container.className = "container";
     container.appendChild(content);
