@@ -17,11 +17,9 @@
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-requirejs": "^0.4.4",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jscs": "^2.3.0",
     "grunt-prettify": "^0.4.0",
-    "grunt-spritesmith": "^6.0.1",
     "grunt-text-replace": "^0.4.0"
   }
 }
