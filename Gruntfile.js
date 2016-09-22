@@ -1,5 +1,4 @@
-/* global module*/
-/*jshint esversion: 6*/
+/* global module */
 module.exports = function (grunt) {
     "use strict";
 
@@ -22,8 +21,7 @@ module.exports = function (grunt) {
         },
         jshint: function (basePath) {
             var options = {
-                jshintrc: true,
-                esversion: 6
+                jshintrc: true
             };
             return {
                 "options": options,
