@@ -281,6 +281,7 @@ function load() {
         data = extractData(child.innerText);
         if (data)
             init(data);
+	    console.log(data)
     }
 }
 

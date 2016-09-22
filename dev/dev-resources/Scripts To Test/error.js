@@ -12,7 +12,7 @@ Techne.Format.diaMesAno = function(value) {
             return value;
         }
     }
-};
+}
 
 Techne.Format.percent = function(value) {
     return Ext.util.Format.number(value * 100, '000,00/i');
