@@ -1,4 +1,4 @@
-var port = chrome.runtime.connect(), collapsers, options, jsonObject
+var port = chrome.runtime.connect(), collapsers, options, jsonObject;
 
 function displayError(error, loc, offset) {
     var link = document.createElement("link"), pre = document.body.firstChild.firstChild, text = pre.textContent.substring(offset), start = 0, ranges = [], idx = 0, end, range = document
@@ -30,7 +30,7 @@ function displayError(error, loc, offset) {
     closeButton.onclick = function() {
         content.parentElement.removeChild(content);
     };
-    content.textContent = error
+    content.textContent = error;
     content.appendChild(closeButton);
     container.className = "container";
     container.appendChild(content);
