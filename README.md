@@ -1,5 +1,6 @@
 # Projeto de Testes Estáticos com Grunt
-Utilização do Grunt aliado ao JSHint e o JSCR para realização de testes estáticos em scripts JS
+Utilização do Grunt aliado ao JSHint e o JSCR para realização de testes estáticos em scripts JS.
+Para mais informações: https://github.com/igorbraz89/TesteEstatico/wiki
 
 ## Configure
 
