@@ -1,5 +1,6 @@
 # Projeto de Testes Estáticos com Grunt
 Utilização do Grunt aliado ao JSHint e o JSCR para realização de testes estáticos em scripts JS.
+
 Para mais informações: https://github.com/igorbraz89/TesteEstatico/wiki
 
 ## Configure
@@ -19,10 +20,12 @@ O Grunt é o Task Runner que orquestrará todo o projeto. Para instalá-lo digit
 
 
 ## Install
-Clone o projeto em sua máquina, na pasta que desejar. Na raiz do clone digite
-os seguintes comandos:
- `Você pode usar o GitHub desktop para clonar o projeto.`
-- `npm install`; (Isso instalará os pacotes necessários do Grunt)
+Clone o projeto em sua máquina, na pasta que desejar.
+Na raiz do projeto, digite os seguintes comandos:
+
+- `npm install`; (Instala os pacotes necessários para o Grunt)
+
+Obs.: `Você pode usar o GitHub desktop para clonar o projeto.`
 
 Pronto, com isso todas as dependências serão instaladas e tudo estará
 configurado para o desenvolvimento.
